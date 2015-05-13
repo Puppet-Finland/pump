@@ -30,7 +30,7 @@ class pump
 
 if $manage == 'yes' {
 
-    class { 'pump::install':
+    class { '::pump::install':
         ensure => $ensure,
     }
 }
